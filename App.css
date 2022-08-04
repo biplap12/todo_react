@@ -1,0 +1,73 @@
+body {
+	margin-left: 40%;
+	margin-top: 10%;
+
+	width: 260px;
+}
+
+.Main {
+	text-align: center;
+	background-color: blue;
+	border-radius: 20px;
+}
+
+.Links {
+	padding: 13px;
+	display: inline-block;
+	border-bottom: solid 0.5px;
+}
+.Links a {
+	text-decoration: none;
+	color: rgb(13, 13, 13);
+	padding: 10px;
+}
+.Links a:hover {
+	border-bottom: solid 3px red;
+}
+.inputbutton {
+	display: inline-flex;
+	flex-direction: row;
+	gap: 20px;
+	margin-top: 10px;
+}
+
+.inputfield {
+	/* margin-left: -80px; */
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	border: solid 1px;
+}
+.Addbutton {
+	width: 70px;
+	height: 40px;
+	border: none;
+	border-radius: 10px;
+	background-color: rgb(7, 127, 247);
+	color: white;
+}
+.Addbutton:hover {
+	background-color: rgb(71, 165, 42);
+}
+
+.cointer {
+	margin-top: 10px;
+	margin-left: -8%;
+}
+ol {
+	list-style-type: none;
+}
+ol li {
+	width: 90%;
+	padding: 5px;
+	position: relative;
+	cursor: pointer;
+	box-shadow: -3px 4px 4px rgb(228, 9, 9);
+}
+ol li button {
+	/* position: relative; */
+	top: 2px;
+	width: 20px;
+	text-align: center;
+	border: none;
+}
